@@ -217,7 +217,7 @@
       color: #888;
       font-size: 0.9rem;
     }
-
+// responsiveness scaling
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
