@@ -17,15 +17,15 @@
 
   <!-- Search Bar -->
   <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Search by task name or type..." />
+    <input type="text" id="searchInput" placeholder="Search by task name " />
     <button onclick="filterTasks()"><i class="fas fa-search"></i></button>
   </div>
 
   <div class="container">
-    <!-- Task Form Section (Left) -->
+
     <div class="form-section">
       <form id="task-form">
-        <!-- Hidden input to hold index for updates -->
+      
         <input type="hidden" id="task-index" value="-1" />
         
         <label for="taskName">Task Name</label>
@@ -52,13 +52,13 @@
       </form>
     </div>
 
-    <!-- Tasks/Notes Section (Right) -->
+
     <div class="notes-section">
       <div class="notes-controls">
         <button onclick="clearAllTasks()"><i class="fas fa-trash"></i> Clear All Tasks</button>
       </div>
       <div class="tasks-container" id="tasks-container">
-        <!-- Task cards will be dynamically inserted here -->
+      
       </div>
     </div>
   </div>
